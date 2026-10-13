@@ -1,0 +1,17 @@
+{
+  "python": "3.10.21",
+  "numpy": "2.0.1",
+  "pandas": "2.3.3",
+  "scikit-learn": "1.7.2",
+  "imbalanced-learn": "0.14.2",
+  "xgboost": "3.2.0",
+  "tensorflow": "2.21.0",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "seeds": {
+    "RANDOM_STATE (numpy, python, split, CV, SMOTE, XGBoost, Isolation Forest, MLP, permutation, bootstrap)": 42,
+    "TensorFlow (tf.keras.utils.set_random_seed)": 42
+  },
+  "bootstrap_resamples": 2000,
+  "cv": "StratifiedKFold(5, shuffle=True) on training set",
+  "test_size": 0.2
+}
